@@ -63,15 +63,39 @@
 		993EC1FE1C0381870093D8F6 /* TwitterK */ = {
 			isa = PBXGroup;
 			children = (
+				9982695D1C040D4700E20E1D /* ViewControllers */,
+				9982695C1C040D4300E20E1D /* Views */,
+				9982695B1C040D3800E20E1D /* Models */,
 				9994D3DF1C03838F0041D167 /* API */,
 				993EC1FF1C0381870093D8F6 /* AppDelegate.swift */,
-				993EC2011C0381870093D8F6 /* ViewController.swift */,
 				993EC2031C0381870093D8F6 /* Main.storyboard */,
 				993EC2061C0381870093D8F6 /* Assets.xcassets */,
 				993EC2081C0381870093D8F6 /* LaunchScreen.storyboard */,
 				993EC20B1C0381870093D8F6 /* Info.plist */,
 			);
 			path = TwitterK;
+			sourceTree = "<group>";
+		};
+		9982695B1C040D3800E20E1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9982695C1C040D4300E20E1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9982695D1C040D4700E20E1D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				993EC2011C0381870093D8F6 /* ViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		9994D3DF1C03838F0041D167 /* API */ = {

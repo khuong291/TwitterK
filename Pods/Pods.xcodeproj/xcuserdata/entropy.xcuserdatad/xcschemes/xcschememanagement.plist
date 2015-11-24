@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>OAuthSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-TwitterK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -33,11 +38,6 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>432ECC54282C84882B482CCB4CF227FC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5BF371D091A42894220ED46E2EE35665</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>BBC472BA25A3C38575724138615EFB00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C16BDB2BEB20F2F091045D15C0BFA50E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE93970FB68874F2C2C5274B42422D36</key>
 		<dict>
 			<key>primary</key>
 			<true/>

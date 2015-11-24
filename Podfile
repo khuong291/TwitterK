@@ -7,5 +7,6 @@ target 'TwitterK' do
 	pod 'BDBOAuth1Manager', '~> 1.6'
 	pod 'Alamofire', '~> 3.1'
     pod 'AlamofireImage', '~> 2.1'
+    pod "OAuthSwift", "~> 0.4.6"
 end
 

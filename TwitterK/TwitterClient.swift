@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import BDBOAuth1Manager
+import Alamofire
 
 let twitterConsumerKey = "Gcg7jzE4qiKzjX0f4x0BoC4PU"
 let twitterConsumerSecret = "l24v7fw7fQUiGVNpcrOAf4ISRXxdhi4BBOpt6xxBuP1CL5buvM"

@@ -9,22 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Alamofire.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>AlamofireImage.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>BDBOAuth1Manager.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OAuthSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,12 +22,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>432ECC54282C84882B482CCB4CF227FC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A1BF58736B6CCECB5DB30E2108366143</key>
+		<key>4878C70B21CA37D7CB8A476BF986741B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,17 +32,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BBC472BA25A3C38575724138615EFB00</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C16BDB2BEB20F2F091045D15C0BFA50E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DE93970FB68874F2C2C5274B42422D36</key>
+		<key>B9E2B10C6435DF4369BCE33549FECC71</key>
 		<dict>
 			<key>primary</key>
 			<true/>

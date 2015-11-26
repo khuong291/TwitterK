@@ -7,7 +7,8 @@
 //
 
 import UIKit
-import OAuthSwift
+import AFNetworking
+import BDBOAuth1Manager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,9 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
-        if url.absoluteString.containsString("TwitterK") {
-            OAuth1Swift.handleOpenURL(url)
-        }
+
+        TwitterClient.sharedInstance.openURL(url)
         return true
     }
 

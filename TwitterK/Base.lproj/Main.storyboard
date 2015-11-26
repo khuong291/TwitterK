@@ -29,17 +29,17 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <segue destination="VyA-Vi-Sh9" kind="modal" identifier="loginSegue" id="7TT-JJ-zP7"/>
+                        <segue destination="M2A-Np-KIo" kind="modal" identifier="loginSegue" id="7TT-JJ-zP7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="46" y="284"/>
         </scene>
-        <!--View Controller-->
+        <!--Tweets View Controller-->
         <scene sceneID="EXO-Ne-0fb">
             <objects>
-                <viewController id="VyA-Vi-Sh9" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TweetsViewController" id="VyA-Vi-Sh9" customClass="TweetsViewController" customModule="TwitterK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1gu-eN-Mwe"/>
                         <viewControllerLayoutGuide type="bottom" id="3vQ-nF-tcY"/>
@@ -47,11 +47,39 @@
                     <view key="view" contentMode="scaleToFill" id="8jE-2H-X3F">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dq-lt-VZA">
+                                <rect key="frame" x="136" y="147" width="48" height="30"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="onLogout:" destination="VyA-Vi-Sh9" eventType="touchUpInside" id="UAf-lK-hdl"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Q1e-t7-GKA"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y8h-qD-ViC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000" y="284"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="I8F-XQ-jNg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M2A-Np-KIo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7wb-07-wgx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VyA-Vi-Sh9" kind="relationship" relationship="rootViewController" id="gUH-Nb-wqM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="My9-cf-sJ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="468" y="284"/>
         </scene>

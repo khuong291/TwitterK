@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ImagesView1" customModule="TwitterK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="232" height="115"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yy3-9A-Xa9">
+                    <rect key="frame" x="0.0" y="0.0" width="232" height="115"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="115" id="zqg-TM-Ep8"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Yy3-9A-Xa9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="daz-Ot-ek5"/>
+                <constraint firstAttribute="trailing" secondItem="Yy3-9A-Xa9" secondAttribute="trailing" id="pHp-Rv-cyy"/>
+                <constraint firstAttribute="bottom" secondItem="Yy3-9A-Xa9" secondAttribute="bottom" id="r4c-tQ-XB1"/>
+                <constraint firstItem="Yy3-9A-Xa9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xJW-7B-GNV"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="Yy3-9A-Xa9" id="nve-d9-6Gn"/>
+            </connections>
+            <point key="canvasLocation" x="162" y="131.5"/>
+        </view>
+    </objects>
+</document>

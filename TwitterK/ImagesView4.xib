@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ImagesView4" customModule="TwitterK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="232" height="115"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l6J-CQ-7Wl">
+                    <rect key="frame" x="114" y="0.0" width="5" height="115"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="5" id="eGh-Ge-G4S"/>
+                        <constraint firstAttribute="height" constant="115" id="xQY-sF-Br2"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="xQY-sF-Br2"/>
+                        </mask>
+                    </variation>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HAy-dC-2SV">
+                    <rect key="frame" x="0.0" y="55" width="232" height="5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="cTj-tI-0i3"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vWp-61-AZq">
+                    <rect key="frame" x="0.0" y="0.0" width="114" height="55"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NZu-3I-3rj">
+                    <rect key="frame" x="119" y="0.0" width="113" height="55"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jpw-NX-7X5">
+                    <rect key="frame" x="0.0" y="60" width="114" height="55"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KcL-sY-AR9">
+                    <rect key="frame" x="119" y="60" width="113" height="55"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jpw-NX-7X5" firstAttribute="bottom" secondItem="l6J-CQ-7Wl" secondAttribute="bottom" id="3ef-R0-Vz9"/>
+                <constraint firstAttribute="centerX" secondItem="l6J-CQ-7Wl" secondAttribute="centerX" id="3iJ-n9-ndf"/>
+                <constraint firstItem="NZu-3I-3rj" firstAttribute="leading" secondItem="vWp-61-AZq" secondAttribute="trailing" constant="4" id="3lQ-CE-H3q"/>
+                <constraint firstItem="HAy-dC-2SV" firstAttribute="top" secondItem="NZu-3I-3rj" secondAttribute="bottom" id="9WM-8m-hdn"/>
+                <constraint firstItem="vWp-61-AZq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="FNz-rO-Taj"/>
+                <constraint firstItem="HAy-dC-2SV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ggq-BS-CI9"/>
+                <constraint firstItem="NZu-3I-3rj" firstAttribute="leading" secondItem="l6J-CQ-7Wl" secondAttribute="trailing" id="I3n-ri-Ztd"/>
+                <constraint firstItem="HAy-dC-2SV" firstAttribute="top" secondItem="vWp-61-AZq" secondAttribute="bottom" id="J9K-U4-Xpj"/>
+                <constraint firstItem="KcL-sY-AR9" firstAttribute="leading" secondItem="jpw-NX-7X5" secondAttribute="trailing" constant="4" id="KPp-j0-tvW"/>
+                <constraint firstItem="KcL-sY-AR9" firstAttribute="top" secondItem="HAy-dC-2SV" secondAttribute="bottom" id="KdT-pb-JIq"/>
+                <constraint firstItem="vWp-61-AZq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NN4-eE-Ezd"/>
+                <constraint firstItem="l6J-CQ-7Wl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RN1-A8-j8z"/>
+                <constraint firstAttribute="bottom" secondItem="l6J-CQ-7Wl" secondAttribute="bottom" id="S0G-uA-Bou"/>
+                <constraint firstItem="jpw-NX-7X5" firstAttribute="trailing" secondItem="vWp-61-AZq" secondAttribute="trailing" id="U9H-OB-28J"/>
+                <constraint firstItem="jpw-NX-7X5" firstAttribute="leading" secondItem="HAy-dC-2SV" secondAttribute="leading" id="ZG9-mj-7Na"/>
+                <constraint firstItem="NZu-3I-3rj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Zqc-sy-NKY"/>
+                <constraint firstItem="KcL-sY-AR9" firstAttribute="leading" secondItem="l6J-CQ-7Wl" secondAttribute="trailing" id="aJ3-3B-5tD"/>
+                <constraint firstAttribute="bottom" secondItem="KcL-sY-AR9" secondAttribute="bottom" id="bco-0C-Ivg"/>
+                <constraint firstItem="jpw-NX-7X5" firstAttribute="top" secondItem="KcL-sY-AR9" secondAttribute="top" id="fd7-6w-mBP"/>
+                <constraint firstItem="l6J-CQ-7Wl" firstAttribute="leading" secondItem="vWp-61-AZq" secondAttribute="trailing" id="j9X-y8-fV7"/>
+                <constraint firstAttribute="trailing" secondItem="KcL-sY-AR9" secondAttribute="trailing" id="jxa-T4-sxe"/>
+                <constraint firstAttribute="trailing" secondItem="HAy-dC-2SV" secondAttribute="trailing" id="lYV-0v-sA8"/>
+                <constraint firstAttribute="trailing" secondItem="NZu-3I-3rj" secondAttribute="trailing" id="obc-of-Ejr"/>
+                <constraint firstAttribute="centerY" secondItem="HAy-dC-2SV" secondAttribute="centerY" id="vl8-94-MNo"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="3lQ-CE-H3q"/>
+                    <exclude reference="KPp-j0-tvW"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="imageView1" destination="vWp-61-AZq" id="M2y-dt-u3C"/>
+                <outlet property="imageView2" destination="NZu-3I-3rj" id="TcY-bP-x7m"/>
+                <outlet property="imageView3" destination="jpw-NX-7X5" id="32U-ae-Z8s"/>
+                <outlet property="imageView4" destination="KcL-sY-AR9" id="2ZW-LF-bFs"/>
+            </connections>
+        </view>
+    </objects>
+</document>

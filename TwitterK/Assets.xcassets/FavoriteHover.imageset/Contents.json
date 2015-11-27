@@ -2,8 +2,8 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "favorite_hover.png"
+      "filename" : "favorite_hover.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",

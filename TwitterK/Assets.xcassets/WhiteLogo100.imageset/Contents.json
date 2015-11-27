@@ -2,8 +2,8 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "Twitter Filled-100.png"
+      "filename" : "Twitter Filled-100.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
